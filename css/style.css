@@ -1,0 +1,752 @@
+    body{
+        background-color: #302121;
+    }
+
+    *{
+        
+        margin: 0;
+    }
+/*кот название*/
+    .text{
+    width: 150px;
+    height: 185px;
+    display: flex;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 185px;
+    margin-top: 27px;
+    margin-left: 900px;
+    font-family: 'Kite One';
+    font-style: normal;
+
+    }
+    /* кот название*/
+    .z{
+        
+        height: 46px;
+        margin-left: 945px;
+        margin-top: -27px;
+        color: #ffffff;
+        font-family: 'Kite One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        display: flex;
+    }
+
+    /*логотип*/
+    .fon{
+        width: 289px;
+    height: 549px;
+    left: 76px;
+    margin-top: -200px;
+    }
+    
+    /*Кнопка*/
+    body {
+        font-family: sans-serif;
+        
+        font-weight: bold;
+    }
+    .xu{
+        width: 783px;
+    height: 103px;
+    margin-left: 650px;
+    margin-top: -115px;
+    }
+    /*регистрация и вход*/
+    .text-box {
+        margin-left: 1600px;
+    margin-top: -500px;
+    }
+
+    .btn:link,
+    .btn:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 15px 40px;
+        display: inline-block;
+        border-radius: 100px;
+        transition: all .2s;
+        position: absolute;
+    }
+
+    .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-white {
+        background-color: #7E5C5C;
+        color: #ffffff;
+    }
+
+    .btn::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+
+    .btn-white::after {
+        background-color: #fff;
+    }
+
+    .btn:hover::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+    }
+
+    .btn-animated {
+        animation: moveInBottom 5s ease-out;
+        animation-fill-mode: backwards;
+    }
+
+    @keyframes moveInBottom {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    } 
+     /*какойто контенер*/
+        .contener2{
+            width: 783px;
+        height: 90px;
+        margin-left: 630px;
+        margin-top: 130px;
+        background: #7E5C5C;
+        border-radius: 30px;
+            }
+
+    /*Главная*/
+    .bt {
+        border: none;
+        background-color: inherit;
+        padding: 14px 30px;
+        font-size: 25px;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'Kite One';
+        font-style: normal;
+        border-radius: 25px;
+        margin-left: -8px;
+    margin-top: 10px;
+    }
+    
+    /* При наведении курсора мыши */
+    .bt:hover {background: #c99494;}
+    .success {color: rgb(255, 255, 255);}
+
+    /*оформление заказа*/
+    .bt1 {
+        
+        border: none;
+    background-color: inherit;
+    padding: 14px 30px;
+    font-size: 25px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Kite One';
+    font-style: normal;
+    border-radius: 25px;
+    margin-left: -8px;
+    margin-top: 10px
+    }
+    /* При наведении курсора мыши */
+    .bt1:hover {background: #c99494;}
+    .info {color: rgb(255, 255, 255);}
+    
+    
+        /*главная*/
+        .w{
+            width: 47px;
+    height: 44px;
+    margin-left: 31px;
+    margin-top: 45px;
+        }
+        /*доставка*/
+        .q{
+            width: 50px;
+    margin-left: 119px;
+    margin-top: -58px
+        }
+
+    button:hover {
+        background: rgba(0,0,0,0);
+        color: #7E5C5C;
+        box-shadow: inset 0 0 0 3px #7E5C5C;
+    }
+      
+   /*размеры кота*/
+    .cot{
+        width: 1408px;
+    height: 438px;
+    margin-left: px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border-radius: 20px;
+    }
+    /*расположение кота*/
+    .fo{
+        width: 1408px;
+    height: 438px;
+    margin-left: 271px;
+    margin-top: 50px;
+    }
+    /*для товаров для кошек*/
+    .contener3{
+        width: 513px;
+height: 63px;
+margin-left: 49px;
+margin-top: 100px;
+
+background: #7E5C5C;
+border-radius: 30px;
+    }
+    /* товары для кошек*/
+   .text2{
+    width: 381px;
+height: 52px;
+margin-left: 30px;
+margin-top: 100px;
+font-family: 'Kite One';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 52px;
+color: #FFFFFF;
+   } 
+   /*картинка стрелкт*/
+   .dro{
+    width: 41px;
+height: 38px;
+margin-left: 500px;
+margin-top: -100px;
+
+   }
+
+   /* Кнопка выпадающего списка */
+.dropbtn {
+    background-color: #7E5C5C;
+    color: #ffffff;
+    font-family: 'Kite One';
+font-style: normal;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image: url('/img/стрелка.png');
+  }
+  
+  /* Кнопка выпадающего меню при наведении и фокусировке */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #c99494;
+    border-radius: 30px;
+  }
+  
+  /* Поле поиска */
+  #myInput {
+    box-sizing: border-box;
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #c99494;
+    border-radius: 30px;
+  }
+  
+  /* Поле поиска, когда он получает фокус/нажал на */
+  #myInput:focus {outline: 3px solid #c99494;}
+  
+  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 30px;
+  }
+  
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c99494;
+    min-width: 230px;
+    border: 1px solid #c99494;
+    z-index: 1;
+  }
+  
+  /* Ссылки внутри выпадающего списка */
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+  .dropdown-content a:hover {background-color: #8d6767}
+  
+  /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс в .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+  .show {display:block;}
+/*когтеточка*/
+.mu{
+    width: 382px;
+height: 342px;
+margin-left: 142px;
+margin-top: 50px;
+border-radius: 20px;
+}
+.text3{
+    width: 195px;
+height: 40px;
+margin-left: 236px;
+margin-top: 10px;
+
+font-family: 'Lexend Mega';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+color: #FFFFFF;
+
+}
+a.button7 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #8d6767;
+    box-shadow: 0 -3px #8d6767 inset;
+    transition: 0.2s;
+    border-radius: 30px;
+  } 
+  a.button7:hover { background: #c99494; }
+  a.button7:active {
+    background: #c99494;
+    box-shadow: 0 3px #c99494 inset;
+  }
+.k{
+    margin-left: 225px;
+    right: 17.89%;
+    margin-top: 50px;
+    bottom: 0%;
+    
+    font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 46px;
+    
+    color: #FFFFFF;
+}
+/*ошейник*/
+.c{
+    margin-left: 110px;
+    margin-top: -160px
+}
+    /*ошейник*/
+    .de{
+        width: 452px;
+height: 349px;
+margin-left: 600px;
+margin-top: -1000px;
+
+border-radius: 20px;
+    }  
+
+    .text4{
+        width: 197px;
+        height: 40px;
+        margin-left: 730px;
+        margin-top: 10px;
+        font-family: 'Lexend Mega';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+        color: #FFFEFE;
+         
+    }
+
+    a.button8 {
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+        padding: .8em 1em calc(.8em + 3px);
+        border-radius: 3px;
+        background: #8d6767;
+        box-shadow: 0 -3px #8d6767 inset;
+        transition: 0.2s;
+        border-radius: 30px;
+      } 
+      a.button8:hover { background: #c99494; }
+      a.button8:active {
+        background: #c99494;
+        box-shadow: 0 3px #c99494 inset;
+      }
+
+    .v{
+        margin-left: 730px;
+        right: 17.89%;
+        margin-top: 49px;
+        bottom: 0%;
+
+        font-family: 'Kite One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 46px;
+        color: #FFFFFF;
+
+    }
+
+    /*шампунь*/
+    .a{
+        margin-left: -60px;
+    margin-top: -160px
+    }
+
+    .d{
+        width: 452px;
+height: 356px;
+margin-left: 1421px;
+margin-top: -900px;
+border-radius: 20px;
+    }
+
+    .text5{
+        width: 197px;
+        height: 40px;
+        margin-left: 1559px;
+        margin-top: 10px;
+        font-family: 'Lexend Mega';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+        color: #FFFEFE;
+    }
+
+    a.button9 {
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+        padding: .8em 1em calc(.8em + 3px);
+        border-radius: 3px;
+        background: #8d6767;
+        box-shadow: 0 -3px #8d6767 inset;
+        transition: 0.2s;
+        border-radius: 30px;
+      } 
+      a.button9:hover { background: #c99494; }
+      a.button9:active {
+        background: #c99494;
+        box-shadow: 0 3px #c99494 inset;
+      }
+      .tew{
+        margin-left: 1558px;
+        right: 17.89%;
+        margin-top: 49px;
+        bottom: 0%;
+
+        font-family: 'Kite One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 46px;
+        color: #FFFFFF;
+      }
+
+         /* Кнопка выпадающего списка */
+.dropb {
+    background-color: #7E5C5C;
+    color: #ffffff;
+    font-family: 'Kite One';
+font-style: normal;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 100px;
+  }
+  
+  /* Кнопка выпадающего меню при наведении и фокусировке */
+  .dropb:hover, .dropb:focus {
+    background-color: #c99494;
+    border-radius: 30px;
+  }
+  
+  /* Поле поиска */
+  #myInpu {
+    box-sizing: border-box;
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #c99494;
+    border-radius: 30px;
+  }
+  
+  /* Поле поиска, когда он получает фокус/нажал на */
+  #myInpu:focus {outline: 3px solid #c99494;}
+  
+  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+  .dropdow {
+    position: relative;
+    display: inline-block;
+    border-radius: 30px;
+  }
+  
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdow-conten {
+    display: none;
+    position: absolute;
+    background-color: #c99494;
+    min-width: 230px;
+    border: 1px solid #c99494;
+    z-index: 1;
+  }
+  
+  /* Ссылки внутри выпадающего списка */
+  .dropdow-conten button {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+  .dropdow-conten button:hover {background-color: #8d6767}
+  
+  /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс в .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+  .sho {display:block;}
+.st{
+    width: 41px;
+height: 38px;
+margin-left: 500px;
+margin-top: -200px;
+
+}
+.qe{
+    width: 678px;
+height: 63px;
+left: 49px;
+top: 1565px;
+}
+
+/*monge*/
+.y{
+    margin-left: 0px;
+    margin-top: -160px
+    }
+.b{
+    width: 382px;
+height: 388px;
+margin-left: 124px;
+margin-top: 20px;
+
+border-radius: 43px;
+}
+.text7{
+    width: 209px;
+height: 40px;
+margin-left: 213px;
+margin-top: 10px;
+
+font-family: 'Lexend Mega';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+color: #FFFFFF;
+}
+a.button10 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #8d6767;
+    box-shadow: 0 -3px #8d6767 inset;
+    transition: 0.2s;
+    border-radius: 30px;
+  } 
+  a.button10:hover { background: #c99494; }
+  a.button10:active {
+    background: #c99494;
+    box-shadow: 0 3px #c99494 inset;
+  }
+  .n{
+    margin-left: 200px;
+        right: 17.89%;
+        margin-top: 49px;
+        bottom: 0%;
+
+        font-family: 'Kite One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 46px;
+        color: #FFFFFF;
+  }
+  .l{
+    margin-left: 0px;
+    margin-top: -160px
+  }
+.p{
+    width: 388px;
+height: 388px;
+margin-left: 788px;
+margin-top: -600px;
+
+border-radius: 43px;
+}
+.text8{
+    width: 217px;
+    height: 40px;
+    margin-left: 900px;
+    margin-top: 10px;
+    
+    font-family: 'Lexend Mega';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF; 
+}
+a.button11 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #8d6767;
+    box-shadow: 0 -3px #8d6767 inset;
+    transition: 0.2s;
+    border-radius: 30px;
+  } 
+  a.button11:hover { background: #c99494; }
+  a.button11:active {
+    background: #c99494;
+    box-shadow: 0 3px #c99494 inset;
+  }
+  .nr{
+    margin-left: 900px;
+    right: 17.89%;
+    margin-top: 49px;
+    bottom: 0%;
+
+    font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 46px;
+    color: #FFFFFF;
+  }
+  
+  
+  .bm{
+    width: 414px;
+height: 400px;
+margin-left: 1436px;
+margin-top: 0px;
+
+border-radius: 43px;
+  }
+.rrr{
+    margin-left: 0px;
+    margin-top: -540px
+}
+a.button12 {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #8d6767;
+    box-shadow: 0 -3px #8d6767 inset;
+    transition: 0.2s;
+    border-radius: 30px;
+  } 
+  a.button12:hover { background: #c99494; }
+  a.button12:active {
+    background: #c99494;
+    box-shadow: 0 3px #c99494 inset;
+  }
+  .text9{
+    width: 213px;
+height: 40px;
+margin-left: 1544px;
+margin-top: 10px;
+
+font-family: 'Lexend Mega';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+color: #FFFFFF;
+  }
+  .te{
+    margin-left: 1550px;
+    right: 17.89%;
+    margin-top: 49px;
+    bottom: 0%;
+
+    font-family: 'Kite One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 46px;
+    color: #FFFFFF;
+  }
+  /*О нас*/
+  .mn{
+    width: 1444px;
+height: 383px;
+margin-left: 49px;
+margin-top: 100px;
+
+font-family: 'Lexend Mega';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+
+color: #FFFFFF;
+
+  }
+ .o{
+    width: 822px;
+height: 160px;
+margin-left: 42px;
+margin-top: 10px;
+
+font-family: 'Lexend Mega';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+
+color: #FFFFFF;
+ }
+ 
