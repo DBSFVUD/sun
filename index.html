@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats</title>
+    <meta http-equiv="Contenet-Type" contener="text/html:charset=utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
+    <script>
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      function filterFunction() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        div = document.getElementById("myDropdown");
+        a = div.getElementsByTagName("a");
+        for (i = 0; i < a.length; i++) {
+          txtValue = a[i].textContent || a[i].innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
+          } else {
+            a[i].style.display = "none";
+          }
+        }
+      }
+
+      function myFunction2() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction2() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInpu");
+  filter = inpu.value.toUpperCase();
+  div = document.getElementById("myDropdo");
+  a = div.getElementsByTagName("button");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+
+
+
+      </script>
+      
+</head>
+<body>
+    <div class="contener">
+        <header>
+            <div class="log">
+                <p class="text">Cats</p>
+                <p class="z">CAT CLUB</p>
+                <img src="img/логотип (2).png" alt="fon" class="fon">
+            </div>
+                <div class="text-box">
+                <a href="file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9/Desktop/%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F/%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F.html" class="btn btn-white btn-animate">Регистрация</a>
+                <br>
+                <br>
+                <br>
+                <br>
+                <a href="file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9/Desktop/%D0%B2%D1%85%D0%BE%D0%B4/q.html" class="btn btn-white btn-animat">Вход</a>
+            </div>
+            
+            <div class="contener2"></div>
+                <div class="xu">
+                    <div><img src="img/главная.png" alt="gl" class="w">
+                    <a href=file:///D:/%D1%81%D0%B0%D0%B9%D1%82(%D0%9C%D0%BE%D0%B9)/index.html>
+                        <button class="bt success">Главная</button></a><img src="img/доставка 2.png" alt="dos" class="q">
+                    <a href="file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9/Desktop/%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7/x.html"><button class="bt1 info">Оформление заказа</button></a></div>
+                </div>
+                
+                
+
+            <div class="foto">
+                <div class="fo">
+                    <img src="img/кот.png" alt="cot" class="cot">
+                </div>
+                <div class="contener3">
+                    <div class="qe">
+                        <div class="drop">
+                            
+                            <button onclick="myFunction()" class="dropbtn">Товары для кошек<img src="img/стрелка.png" alt="f" class="dro"></button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                                <a href="#about">Игрушки</a>
+                                <a href="#base">Корма</a>
+                                <a href="#blog">Лежанки</a>
+                                <a href="#contact">Шампуни</a>
+                                <a href="#custom">Поводки</a>
+                                <a href="#support">Переноски</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <div>
+                       <div class="me">
+                        <div>
+                            <img src="img/когтеточка.jpg" alt="d" class="mu">
+                            <p class="text3">Цена: 350р</p>
+                        </div>
+                        <div class="k">
+                            <a href="file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9/Desktop/%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7/x.html" class="button7">Заказать</a>
+                        </div>
+                       </div>
+
+                        <div class="c">
+                            <div>
+                            <img src="img/ошейник.jpg" alt="co" class="de">
+                            <p class="text4">Цена: 200р</p>
+                        </div>
+                        <div class="v">
+                            <a href="file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9/Desktop/%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7/x.html" class="button8">Заказать</a>
+                        </div>
+                    </div>
+
+                        <div class="a">
+                            <div>
+                            <img src="img/шампунь.jpg" alt="cote" class="d">
+                            <p class="text5">Цена: 940р</p>
+                        </div>
+                        <div class="tew">
+                            <a href="file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9/Desktop/%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7/x.html" class="button9">Заказать</a>
+                        </div>
+                        </div>
+               </div>
+                        <div class="contener4">
+                            <div class="b">
+                                <div class="dr">
+                                    <button onclick="myFunction2()" class="dropb">Топ лучших кормов для кошек<img src="img/стрелка.png" alt="f" class="st"></button>
+                                    <div id="myDropdo" class="dropdow-conten">
+                                      <input type="text" placeholder="Search." id="myInpu" onkeyup="filterFunction2()">
+                                      <button href="#abou">Monge</button>
+                                      <button href="#bas">N&D</button>
+                                      <button href="#blo">Pro Plan</button>
+                                     </div>
+                                </div>  
+                            </div>
+                        </div>
+                    
+
+            <div class="y">
+                    <div>
+                        <img src="img/корм.png" alt="c" class="b">
+                        <p class="text7">Цена: 1127р</p>
+                    </div>
+                <div class="n">
+                        <a href="file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9/Desktop/%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7/x.html" class="button10">Заказать</a>
+                </div>
+                    
+            </div>
+                
+                    <div class="l">
+                        <div>
+                        <img src="img/корм2.png" alt="c" class="p">
+                        <p class="text8">Цена: 2238р</p>
+                    </div>
+                    <div class="nr">
+                        <a href="file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9/Desktop/%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7/x.html" class="button11">Заказать</a>
+                    </div>
+                    </div>
+                <div class="rrr">
+                        <div>
+                        <img src="img/корм3.png" alt="b" class="bm">
+                        <p class="text9">Цена: 1881р</p>
+                    </div>
+                    <div class="te">
+                        <a href="file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9/Desktop/%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7/x.html" class="button12">Заказать</a>
+                    </div>
+                </div>
+                    <div class="mn">
+                        <p>О нас:</p>
+                        <p>Наш зоомагазин – интернет-магазин качественных
+                            и доступных товаров. Все, что требуется для содержания,
+                            кормления и ухода за домашними питомцами,
+                            вы быстро можете приобрести в нашем зоомагазине 
+                            для животных. Большой ассортимент товаров от ведущих 
+                            производителей позволит выбрать самое лучшее для ваших любимцев</p>
+                    </div>
+                    <div class="h"></div>
+
+                   
+                
+                <div class="o">
+                    <p>Если у вас возникнут вопросы, свяжитесь с нами:</p>
+                    <p>тел. 8-901-868-17-70</p>
+                    <p>email: Nik.gelmart@bk.ru</p>
+                    <p>Адрес: Пермский край г.Пермь, Советская 7</p>
+                </div>
+            </div>
+        </header>
+</body>
+</html>
